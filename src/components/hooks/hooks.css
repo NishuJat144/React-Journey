@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3d3d3;
+}
+
+section{
+    min-width: 25vw;
+    min-height: 35vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+section h1{
+    margin: 20px;
+}
+section p{
+    margin: 20px 0px 0px 10px;
+}
+
+div{
+    margin: 20px 2px 0px 10px;
+    display: flex ;
+    gap: 3vw;
+}
+
+
+.step{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.step p{
+    margin: 0;
+}
+
+.step input{
+    border: 2px solid #d3d3d3bc;
+    font-size: 2vh;
+    height: 3vh;
+
+}
+
+div button{
+    font-size: 2.5vh;
+    font-weight: 500;
+    background-color: rgb(127, 206, 255);
+    border-radius: 20px;
+    color: #fff;
+    min-width: 15vw;
+}
+
+div button:hover{
+    cursor: pointer;
+}
+
+/* useState hooks index.jsx ke liye css */
+
+.statediv{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statediv button{
+    font-size: 3vh;
+    background-color:rebeccapurple ;
+    padding: 1vh 1vw;
+}
+
+.statediv p{
+    font-size: 10vh;
+}
+
+/* Uncontrolled Component ki css */
+.btn{
+    width: 10vw;
+    margin: 5vh 0vw 0vh 5vw;
+}
+

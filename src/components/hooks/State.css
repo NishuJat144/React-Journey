@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 12vh;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 4vh;
+    font-weight: 300;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: rgb(53, 228, 244);
+    width: 25vw;
+    height: 8vh;
+    font-size: 4vh;
+    cursor: pointer;
+    border:2px solid black;
+}
+
+button:hover{
+    background-color: black;
+    color: rgb(53, 228, 244);
+}

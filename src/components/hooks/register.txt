@@ -1,0 +1,21 @@
+switch(name){
+            case "first" :
+                setFirstName(value);
+                break ;
+             
+            case "last"  :
+                setLastName(value);
+                break;
+                
+            case "email" :
+                setEmail(value);  
+                break;
+                
+            case "password" :
+                setPassword(value);
+                break;
+                
+            case "phone" :
+                setPhoneNumber(value);
+                break;    
+        }
