@@ -38,6 +38,14 @@ form input{
     padding: 6px;
     background-color: #d3d3d38d;
 }
+
+form textarea{
+    border:  2px solid #d3d3d3;
+    font-size: 2vh;
+    padding: 6px;
+    background-color: #d3d3d38d;
+
+}
 section button{
     height: 5vh;
     width: 100%;
