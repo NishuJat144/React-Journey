@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Profile } from './components/Profile.jsx'
 import './index.css'
+import { EffectChallenge } from './components/hooks/useEffect/EffectChallenge'
 // import { ContactForm } from './components/hooks/ContactForm'
 // import { RegistrationFormReact } from './components/hooks/RegistrationReact'
 // import { LoginForm } from './components/hooks/LoginForm'
@@ -25,7 +26,7 @@ import './index.css'
 
 // import ShortCircuit from './components/hooks/ShortCircuit'
  
-import {ReactUseEffect} from "./components/hooks/useEffect/index.jsx"
+// import {ReactUseEffect} from "./components/hooks/useEffect/index.jsx"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -57,8 +58,11 @@ createRoot(document.getElementById('root')).render(
 
    {/* <ContactForm/> */}
 
-   <ReactUseEffect/>
+   {/* <ReactUseEffect/> */}
 
    {/* <LoginForm/> */}
+
+   <EffectChallenge/>
+
   </StrictMode>
 )
