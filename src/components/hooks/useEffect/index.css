@@ -17,10 +17,12 @@ div{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 h1{
     color: #fff;
     font-weight: 600;
+    font-size: 5vh;
 }
 
 p{
@@ -47,4 +49,11 @@ input{
     border: none;
     padding: 5px;
     font-size: 2vh;
+}
+
+/* CleanUp CSS */
+h2{
+    color: #fff;
+    font-size: 3vh;
+    font-weight: 600;
 }

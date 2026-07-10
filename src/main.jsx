@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Profile } from './components/Profile.jsx'
 import './index.css'
-import { EffectChallenge } from './components/hooks/useEffect/EffectChallenge'
+import { CleanUp } from './components/hooks/useEffect/CleanUp'
+// import { EffectChallenge } from './components/hooks/useEffect/EffectChallenge'
 // import { ContactForm } from './components/hooks/ContactForm'
 // import { RegistrationFormReact } from './components/hooks/RegistrationReact'
 // import { LoginForm } from './components/hooks/LoginForm'
@@ -62,7 +63,9 @@ createRoot(document.getElementById('root')).render(
 
    {/* <LoginForm/> */}
 
-   <EffectChallenge/>
+   {/* <EffectChallenge/> */}
+
+   <CleanUp/>
 
   </StrictMode>
 )
