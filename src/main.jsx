@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Profile } from './components/Profile.jsx'
 import './index.css'
-import { CleanUp } from './components/hooks/useEffect/CleanUp'
+import { HowNotToFetchApi } from './components/hooks/useEffect/HowNotToFetchApi'
+// import { CleanUp } from './components/hooks/useEffect/CleanUp'
 // import { EffectChallenge } from './components/hooks/useEffect/EffectChallenge'
 // import { ContactForm } from './components/hooks/ContactForm'
 // import { RegistrationFormReact } from './components/hooks/RegistrationReact'
@@ -65,7 +66,8 @@ createRoot(document.getElementById('root')).render(
 
    {/* <EffectChallenge/> */}
 
-   <CleanUp/>
-
+   {/* <CleanUp/> */}
+  
+  <HowNotToFetchApi/>
   </StrictMode>
 )
