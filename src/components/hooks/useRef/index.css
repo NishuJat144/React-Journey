@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #0d3255;
+    align-items: center;
+ 
+}
+h1{
+    color: #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+input{
+    background-color: #fff;
+    height: 4vh;
+    width: 10vw;
+    padding: 5px;
+    font-size: 3vh
+}
+
+button{
+    min-width: 5vw;
+    height: 4vh;
+    background-color: aquamarine;
+    font-size: 3vh;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
