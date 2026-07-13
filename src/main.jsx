@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Profile } from './components/Profile.jsx'
 import './index.css'
-import { UseRef } from './components/hooks/useRef'
+import { ForwardRef } from './components/hooks/useRef/ForwardRef'
+// import { UseRef } from './components/hooks/useRef'
 // import { HowNotToFetchApi } from './components/hooks/useEffect/HowNotToFetchApi'
 // import { CleanUp } from './components/hooks/useEffect/CleanUp'
 // import { EffectChallenge } from './components/hooks/useEffect/EffectChallenge'
@@ -71,6 +72,9 @@ createRoot(document.getElementById('root')).render(
   
   {/* <HowNotToFetchApi/> */}
 
-  <UseRef/>
+  {/* <UseRef/> */}
+
+  <ForwardRef/>
+
   </StrictMode>
 )
