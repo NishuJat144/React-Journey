@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Profile } from './components/Profile.jsx'
 import './index.css'
-import { UseId } from './components/hooks/useId'
+import { ParentComponent } from './components/PropDrilling'
+// import { UseId } from './components/hooks/useId'
 // import { ForwardRef } from './components/hooks/useRef/ForwardRef'
 // import { UseRef } from './components/hooks/useRef'
 // import { HowNotToFetchApi } from './components/hooks/useEffect/HowNotToFetchApi'
@@ -77,7 +78,9 @@ createRoot(document.getElementById('root')).render(
 
   {/* <ForwardRef/> */}
 
-  <UseId/>
+  {/* <UseId/> */}
+
+  <ParentComponent/>
 
   </StrictMode>
 )
