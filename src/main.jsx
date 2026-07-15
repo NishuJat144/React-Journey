@@ -2,7 +2,11 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Profile } from './components/Profile.jsx'
 import './index.css'
-import { ParentComponent } from './components/PropDrilling'
+import { BioProvider } from './components/hooks/ContextApi'
+import { Home } from './components/hooks/ContextApi/Home'
+import { About } from './components/hooks/ContextApi/About'
+import { Services } from './components/hooks/ContextApi/Services'
+// import { ParentComponent } from './components/PropDrilling'
 // import { UseId } from './components/hooks/useId'
 // import { ForwardRef } from './components/hooks/useRef/ForwardRef'
 // import { UseRef } from './components/hooks/useRef'
@@ -80,7 +84,13 @@ createRoot(document.getElementById('root')).render(
 
   {/* <UseId/> */}
 
-  <ParentComponent/>
+  {/* <ParentComponent/> */}
+
+  <BioProvider>
+    <Home/>
+    <About/>
+    <Services/>
+  </BioProvider>
 
   </StrictMode>
 )
