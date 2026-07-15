@@ -21,7 +21,7 @@ h1{
   font-size: 3.2rem;
 }
 
-p , li , a , label{
+ li , a , label{
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
   color: var(--para-color);

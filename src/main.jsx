@@ -2,10 +2,12 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Profile } from './components/Profile.jsx'
 import './index.css'
-import { BioProvider } from './components/hooks/ContextApi'
-import { Home } from './components/hooks/ContextApi/Home'
-import { About } from './components/hooks/ContextApi/About'
-import { Services } from './components/hooks/ContextApi/Services'
+
+import { DarkLight, ThemeProvider } from './components/hooks/ContextApi/Theme/DarkLight'
+// import { BioProvider } from './components/hooks/ContextApi'
+// import { Home } from './components/hooks/ContextApi/Home'
+// import { About } from './components/hooks/ContextApi/About'
+// import { Services } from './components/hooks/ContextApi/Services'
 // import { ParentComponent } from './components/PropDrilling'
 // import { UseId } from './components/hooks/useId'
 // import { ForwardRef } from './components/hooks/useRef/ForwardRef'
@@ -86,10 +88,16 @@ createRoot(document.getElementById('root')).render(
 
   {/* <ParentComponent/> */}
 
-  <BioProvider>
-    <Home/>
-    <About/>
-    <Services/>
-  </BioProvider>
+  {/* <BioProvider> */}
+    {/* <Home/> */}
+    {/* <About/> */}
+    {/* <Services/> */}
+  {/* </BioProvider> */}
+
+
+  {/* TOGGLE THEME PROVIDER */}
+  <ThemeProvider>
+    <DarkLight/>
+   </ThemeProvider>
  </StrictMode>
 )
