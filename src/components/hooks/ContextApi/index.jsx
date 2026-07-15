@@ -1,4 +1,5 @@
-import {createContext, useContext} from "react";
+// import {createContext,  useContext} from "react";
+import { createContext, use } from "react";
 
 //& 1. Creating Context => Warehouse
 export const BioContext = createContext();
@@ -14,7 +15,10 @@ export const BioProvider = ({children})=> {
 
 // & Custom Hooks
 export const useBioContext = ()=>{
-  const context = useContext(BioContext);
+  //* const context = useContext(BioContext);
+  // ^ use Api can be used in conditionals .
+  const context = use(BioContext);
+
   if(context === undefined){
     throw new Error("Component must be wrapped with BioProvider.")
   }  return context ;

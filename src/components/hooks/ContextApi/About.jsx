@@ -1,15 +1,25 @@
-//? import { useContext } from "react"
-import { useBioContext } from ".";
+// import { useContext } from "react"
+import { use } from "react";
+import { BioContext } from ".";
+// import { useBioContext } from ".";
 
 
 export const About = () => {
 
     //& 3. Consumer
-//    const {myName , myAge} =  useContext(BioContext);
-      const {myName , myAge} =  useBioContext();
+//?    const {myName , myAge} =  useContext(BioContext);
+    //?   const {myName , myAge} =  useBioContext();
+//?    const {myName , myAge} =  use(BioContext);
 
-   
-    return (
+//    ^ use Api used in Conditional statements
+   const newHook = true ;
+   let myName , myAge ; 
+
+   if(newHook){
+    ({myName , myAge} = use(BioContext));
+   }
+  
+   return (
     <section 
        className= {`p-4 h-lvh font-display tracking-wider flex flex-col
        justify-center items-center bg-gray-900 text-white`}>
