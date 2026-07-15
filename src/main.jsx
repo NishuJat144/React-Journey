@@ -91,6 +91,5 @@ createRoot(document.getElementById('root')).render(
     <About/>
     <Services/>
   </BioProvider>
-
-  </StrictMode>
+ </StrictMode>
 )

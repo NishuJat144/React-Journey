@@ -1,10 +1,12 @@
-import { useContext } from "react"
-import { BioContext } from ".";
-
+//? import { useContext } from "react"
+//? import { BioContext } from ".";
+import {useBioContext} from "." ;
 export const Home = () => {
 
     //& 3. Consumer
-   const {myName , myAge} =  useContext(BioContext);
+   const {myName , myAge} =  useBioContext();
+// ?   const {myName , myAge} =  useContext(BioContext);
+
    
     return (
          <section
@@ -15,4 +17,4 @@ export const Home = () => {
          </h1>
          </section>
     )
-}
+};
