@@ -2,8 +2,9 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Profile } from './components/Profile.jsx'
 import './index.css'
+import { ReducerComponent } from './components/hooks/useReducer'
 
-import { DarkLight, ThemeProvider } from './components/hooks/ContextApi/Theme/DarkLight'
+// import { DarkLight, ThemeProvider } from './components/hooks/ContextApi/Theme/DarkLight'
 // import { BioProvider } from './components/hooks/ContextApi'
 // import { Home } from './components/hooks/ContextApi/Home'
 // import { About } from './components/hooks/ContextApi/About'
@@ -96,8 +97,11 @@ createRoot(document.getElementById('root')).render(
 
 
   {/* TOGGLE THEME PROVIDER */}
-  <ThemeProvider>
-    <DarkLight/>
-   </ThemeProvider>
+  {/* <ThemeProvider> */}
+    {/* <DarkLight/> */}
+   {/* </ThemeProvider> */}
+ 
+  <ReducerComponent/>
+
  </StrictMode>
 )
