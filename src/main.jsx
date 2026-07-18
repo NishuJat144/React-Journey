@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Profile } from './components/Profile.jsx'
 import './index.css'
-import { ReducerComponent } from './components/hooks/useReducer'
+import { ReactMemo } from './components/hooks/Memo/ReactMemo'
+// import { ReducerComponent } from './components/hooks/useReducer'
 
 // import { DarkLight, ThemeProvider } from './components/hooks/ContextApi/Theme/DarkLight'
 // import { BioProvider } from './components/hooks/ContextApi'
@@ -101,7 +102,9 @@ createRoot(document.getElementById('root')).render(
     {/* <DarkLight/> */}
    {/* </ThemeProvider> */}
  
-  <ReducerComponent/>
+  {/* <ReducerComponent/> */}
+
+  <ReactMemo/>
 
  </StrictMode>
 )
