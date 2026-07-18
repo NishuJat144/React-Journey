@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Profile } from './components/Profile.jsx'
 import './index.css'
-import { ReactMemo } from './components/hooks/Memo/ReactMemo'
+import MemoParentComponent from './components/hooks/Memo/UseMemo'
+// import { ReactMemo } from './components/hooks/Memo/ReactMemo'
 // import { ReducerComponent } from './components/hooks/useReducer'
 
 // import { DarkLight, ThemeProvider } from './components/hooks/ContextApi/Theme/DarkLight'
@@ -104,7 +105,9 @@ createRoot(document.getElementById('root')).render(
  
   {/* <ReducerComponent/> */}
 
-  <ReactMemo/>
+  {/* <ReactMemo/> */}
+
+  <MemoParentComponent/>
 
  </StrictMode>
 )
