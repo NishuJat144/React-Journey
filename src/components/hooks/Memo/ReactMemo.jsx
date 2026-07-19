@@ -1,8 +1,23 @@
-import { useState } from "react"
+import { useMemo, useState } from "react"
 import  {Counts} from "./MemoCount";
 
 export const ReactMemo = () => {
     const [count , setCount] = useState(0);
+
+    // * Passing this prop to Counts Component 
+    // const myBioData = {
+    //     name : "Yogesh" , 
+    //     age : 21
+    // };
+
+
+   const myBioData = useMemo(() => {
+        return {
+        name : "Yogesh" , 
+        age : 21
+    };
+    } ,  []);
+
     return(
         <>
         <div className="p-4 h-52 font-display tracking-wider flex flex-col justify-end items-center">
@@ -12,7 +27,8 @@ export const ReactMemo = () => {
                 Increment
              </button>
         </div>
-        <Counts/>
+        
+        <Counts bioData = {myBioData}/>
 
 
         </>

@@ -1,6 +1,6 @@
 import React, { memo, useRef } from "react";
 
-export const Counts = memo(() => {
+export const Counts = memo(({bioData}) => {
     const renderCount = useRef(0);
     console.log(renderCount);
     
@@ -10,6 +10,7 @@ export const Counts = memo(() => {
                 Nothing Changed here but Ive now Rendered :
                 <span className="text-red-600">{renderCount.current++}time(s)</span>
             </p>
+            <p className="text-4xl">My name is : {bioData.name}</p>
         </div>
     )
 })
