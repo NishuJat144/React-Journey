@@ -1,16 +1,168 @@
-# React + Vite
+# ⚛️ React.js Learning Repository
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive React.js learning repository covering concepts from **Basic to Advanced**, including React fundamentals, Hooks, Routing, Forms, State Management, and mini projects.
 
-Currently, two official plugins are available:
+This repository documents my React learning journey through hands-on coding and practical examples. Every concept is implemented with working code to strengthen understanding and build a solid foundation for real-world React development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Topics Covered
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📌 React Fundamentals
+- JSX
+- Components
+- Props
+- State
+- Event Handling
+- Conditional Rendering
+- Lists & Keys
+- Component Composition
+- Dynamic Rendering
 
-## Expanding the ESLint configuration
+### 📌 React Hooks
+- ✅ useState
+- ✅ useEffect
+- ✅ useContext
+- ✅ useReducer
+- ✅ useRef
+- ✅ useMemo
+- ✅ useCallback
+- ✅ React.memo
+- ✅ useId
+- ✅ Custom Hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📌 React Concepts
+- Context API
+- Controlled Components
+- Uncontrolled Components
+- Form Handling
+- Lifting State Up
+- Prop Drilling
+- Component Reusability
+- Side Effects
+- Performance Optimization
+- Folder Structure
+- Reusable Components
+
+### 📌 Styling
+- CSS Modules
+- Tailwind CSS
+- Responsive Design
+- Dark / Light Theme Toggle
+
+### 📌 Forms
+- Login Form
+- Registration Form
+- Contact Form
+- Validation Basics
+
+### 📌 API Handling
+- Fetch API
+- Async/Await
+- Loading States
+- Error Handling
+
+### 📌 Mini Projects
+- 🎬 Netflix Card UI
+- 🌗 Dark / Light Theme Toggle
+- 📝 Todo Components
+- 🧾 Registration Form
+- 🔐 Login Form
+- 📩 Contact Form
+- Counter App
+- And many more practice components...
+
+---
+
+## 📂 Repository Purpose
+
+This repository is created for:
+
+- Learning React from scratch
+- Practicing every core concept
+- Understanding Hooks deeply
+- Building reusable components
+- Preparing for React interviews
+- Strengthening frontend development skills
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Tailwind CSS
+- Vite
+
+---
+
+## 📖 Learning Outcome
+
+After completing this repository, I gained practical knowledge of:
+
+- React Component Architecture
+- State Management
+- React Hooks
+- Context API
+- Form Handling
+- API Integration
+- Performance Optimization
+- Component Reusability
+- Modern React Development Practices
+
+---
+
+## ▶️ Getting Started
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Move into the project:
+
+```bash
+cd <repository-folder>
+```
+
+Install dependencies:
+
+```bash
+bun install
+```
+
+Start the development server:
+
+```bash
+bun dev
+```
+
+---
+
+## 📌 Future Additions
+
+- React Router
+- Axios
+- CRUD Operations
+- TanStack Query
+- Authentication
+- Protected Routes
+- Custom Hooks Projects
+- Advanced React Projects
+
+---
+
+## ⭐ Purpose
+
+This repository serves as my React practice workspace where I continuously add new concepts, experiments, and projects while learning modern React development.
+
+If you find this repository useful, feel free to ⭐ the repository.
+
+---
+
+## 👨‍💻 Author
+
+**Yogesh Singh**
