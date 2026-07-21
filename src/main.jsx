@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Profile } from './components/Profile.jsx'
 import './index.css'
-import UseCallback from './components/hooks/Memo/UseCallback'
+// import UseCallback from './components/hooks/Memo/UseCallback'
 // import MemoParentComponent from './components/hooks/Memo/UseMemo'
 // import { ReactMemo } from './components/hooks/Memo/ReactMemo'
 // import { ReducerComponent } from './components/hooks/useReducer'
@@ -27,7 +27,7 @@ import UseCallback from './components/hooks/Memo/UseCallback'
 // import { Challenge } from './components/hooks/useState/Challenge'
 // import { UncontrolledComponent } from './components/Uncontrolled'
 // import { Counter } from './components/hooks/useState'
-// import {App} from './App.jsx'
+import {App} from './App.jsx'
 // import { EventHandling } from './components/EventHandling.jsx'
 // import { Practices } from './Practice.jsx'
 
@@ -46,7 +46,7 @@ import UseCallback from './components/hooks/Memo/UseCallback'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <Profile/> */}
     {/* <Practices /> */}
 
@@ -110,6 +110,6 @@ createRoot(document.getElementById('root')).render(
 
   {/* <MemoParentComponent/> */}
 
- <UseCallback/>
+ {/* <UseCallback/> */}
  </StrictMode>
 )
